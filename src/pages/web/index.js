@@ -4,7 +4,7 @@ import { Sidebar } from 'components/web/Sidebar';
 import { Navbar } from 'components/web/Navbar';
 import { HeroSection } from 'components/web/HeroSection';
 import { InfoSection } from 'components/web/InfoSection';
-import { homeObjOne } from 'components/web/InfoSection/Data';
+import { homeObjOne, homeObjThree, homeObjTwo } from 'components/web/InfoSection/Data';
 
 export const Home = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +19,8 @@ export const Home = () => {
          <Navbar toggle={toggle} />
          <HeroSection />
          <InfoSection {...homeObjOne} />
+         <InfoSection {...homeObjTwo} />
+         <InfoSection {...homeObjThree} />
       </>
    );
 };
