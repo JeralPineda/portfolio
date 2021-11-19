@@ -3,7 +3,6 @@ import React from 'react';
 import { Button } from 'components/ButtonElement';
 import { BtnWrap, Column1, Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoElements';
 import { homeObjOne } from './Data';
-import { pageImages } from 'helpers/heroImages';
 
 export const InfoSection = () => {
    const { lightBg, lightText, id, imgStart, topLine, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2 } = homeObjOne;
@@ -40,7 +39,7 @@ export const InfoSection = () => {
                      <ImgWrap>
                         <Img
                            //
-                           src={pageImages(`./${img}.svg`).default}
+                           src={img}
                            alt={alt}
                         />
                      </ImgWrap>
