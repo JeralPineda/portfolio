@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowForward, ArrowRigth, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroImg, HeroP, Img, VideoBg } from './HeroElements';
 import Video from '../../../videos/video.mp4';
-import image from '../../../images/deadpool.jpg';
+import image from '../../../assets/images/deadpool.jpg';
 import { Button } from 'components/ButtonElement';
 
 export const HeroSection = () => {
