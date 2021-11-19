@@ -29,7 +29,7 @@ export const homeObjOne = {
    description: 'Get access to our exclusive app that allows you to send unlimited trabsactions without getting charged any fees.',
    buttonLabel: 'Get Started',
    imgStart: false,
-   img: `${pageImages('./svg-1.svg').default}`,
+   img: `${pageImages('./svg-5.svg').default}`,
    alt: 'Computo',
    dark: true,
    primary: true,
