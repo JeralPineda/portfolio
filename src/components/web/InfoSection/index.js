@@ -2,11 +2,8 @@ import React from 'react';
 
 import { Button } from 'components/ButtonElement';
 import { BtnWrap, Column1, Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoElements';
-import { homeObjOne } from './Data';
 
-export const InfoSection = () => {
-   const { lightBg, lightText, id, imgStart, topLine, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2 } = homeObjOne;
-
+export const InfoSection = ({ lightBg, lightText, id, imgStart, topLine, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
    return (
       <>
          <InfoContainer lightBg={lightBg} id={id}>
