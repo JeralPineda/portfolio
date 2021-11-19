@@ -4,6 +4,10 @@ import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
    background: #0c0c0c;
+
+   /* background: rgb(2, 31, 7);
+   background: radial-gradient(circle, rgba(2, 31, 7, 1) 0%, rgba(0, 0, 0, 1) 77%); */
+
    display: flex;
    justify-content: center;
    align-items: center;
@@ -101,18 +105,24 @@ export const ArrowRigth = styled(MdKeyboardArrowRight)`
 `;
 
 export const HeroImg = styled.div`
+   margin-bottom: 1rem;
    position: relative;
-   width: 250px;
-   height: 250px;
-
+   width: 22rem;
+   height: 25rem;
+   border: 2px double #fafafa;
    background: inherit;
    overflow: hidden;
    display: flex;
    justify-content: center;
    align-items: center;
-   border-radius: 50%;
+   /* border-radius: 50%; */
+   border-bottom-left-radius: 33%;
+   border-bottom-right-radius: 33%;
 
-   &::after {
+   border-top-left-radius: 33%;
+   border-top-right-radius: 33%;
+
+   /* &::after {
       content: '';
       width: 300px;
       height: 300px;
@@ -120,11 +130,16 @@ export const HeroImg = styled.div`
       position: absolute;
       box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.1);
       filter: blur(15px);
-   }
+   } */
 `;
 
 export const Img = styled.img`
-   width: 22rem;
-   height: 22rem;
-   border-radius: 50%;
+   width: 18rem;
+   height: 20rem;
+   /* border-radius: 50%; */
+   border-bottom-left-radius: 33%;
+   border-bottom-right-radius: 33%;
+
+   border-top-left-radius: 33%;
+   border-top-right-radius: 33%;
 `;
