@@ -61,7 +61,7 @@ export const homeObjThree = {
    headLine: 'Unlimited Transactions with zero fees',
    description: 'Get access to our exclusive app that allows you to send unlimited trabsactions without getting charged any fees.',
    buttonLabel: 'Piggybank',
-   imgStart: true,
+   imgStart: false,
    img: `${pageImages('./svg-3.svg').default}`,
    alt: 'Computo',
    dark: false,
