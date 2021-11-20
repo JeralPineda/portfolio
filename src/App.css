@@ -13,3 +13,14 @@ html {
 body {
    font-family: 'Encode Sans Expanded', sans-serif;
 }
+
+::-webkit-scrollbar {
+   width: 0.8rem;
+   background-color: #ccc;
+   border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #0c0c0c;
+   border-radius: 0.5rem;
+}
