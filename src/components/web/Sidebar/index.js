@@ -24,9 +24,9 @@ export const Sidebar = ({ isOpen, toggle }) => {
                </SidebarLink>
             </SidebarMenu>
 
-            <SideBtnWrapp>
+            {/* <SideBtnWrapp>
                <SidebarRoute to='signin'>Sign In</SidebarRoute>
-            </SideBtnWrapp>
+            </SideBtnWrapp> */}
          </SidebarWrapper>
       </SidebarContainer>
    );

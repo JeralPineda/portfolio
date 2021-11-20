@@ -28,9 +28,9 @@ export const Navbar = ({ toggle }) => {
                   </NavItem>
                </NavMenu>
 
-               <NavBtn>
+               {/* <NavBtn>
                   <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-               </NavBtn>
+               </NavBtn> */}
             </NavbarContainer>
          </Nav>
       </>
