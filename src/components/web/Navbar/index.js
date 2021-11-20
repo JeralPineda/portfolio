@@ -45,7 +45,7 @@ export const Navbar = ({ toggle }) => {
                            smooth={true}
                            duration={500}
                            spy={true}
-                           exact='true'
+                           exact={'true'}
                            offset={-80}
                         >
                            About
@@ -58,7 +58,7 @@ export const Navbar = ({ toggle }) => {
                            smooth={true}
                            duration={500}
                            spy={true}
-                           exact='true'
+                           exact={'true'}
                            offset={-80}
                         >
                            Discover
@@ -71,7 +71,7 @@ export const Navbar = ({ toggle }) => {
                            smooth={true}
                            duration={500}
                            spy={true}
-                           exact='true'
+                           exact={'true'}
                            offset={-80}
                         >
                            Services
@@ -84,7 +84,7 @@ export const Navbar = ({ toggle }) => {
                            smooth={true}
                            duration={500}
                            spy={true}
-                           exact='true'
+                           exact={'true'}
                            offset={-80}
                         >
                            Sign Up
