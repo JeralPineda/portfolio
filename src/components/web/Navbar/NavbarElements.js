@@ -13,7 +13,9 @@ export const Nav = styled.nav`
    position: sticky;
    top: 0;
    z-index: 10;
+
    backdrop-filter: ${({ scrollNav }) => (scrollNav ? 'blur(20px)' : 'transparent')};
+   box-shadow: ${({ scrollNav }) => (scrollNav ? 'rgba(255, 255, 255, 0.02) 0px 3px 0px -1px, rgba(255, 255, 255, 0.06) 0px 2px 2px -1px' : 'transparent')};
    transition: 0.6s ease;
 
    @media screen and (max-width: 960px) {
