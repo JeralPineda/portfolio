@@ -20,10 +20,9 @@ export const Home = () => {
          <Sidebar isOpen={isOpen} toggle={toggle} />
          <Navbar toggle={toggle} />
          <HeroSection {...homeObjOne} />
-         <InfoSection {...homeObjOne} />
          <InfoSection {...homeObjTwo} />
-         <Services />
          <InfoSection {...homeObjThree} />
+         <Services />
          <Footer />
       </>
    );
