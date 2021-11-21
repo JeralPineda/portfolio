@@ -1,26 +1,7 @@
 import { pageImages } from 'helpers/heroImages';
 
-// export const projects = [
-//    {
-//       id: 1,
-//       linkGitHub: '',
-//       linkDemo: '',
-//       title: '',
-//       descriptions: '',
-//       image: '',
-//    },
-// ];
-
-// export const skills = [
-//    {
-//       id: 1,
-//       icon: '',
-//       color: '',
-//    },
-// ];
-
 export const homeObjOne = {
-   id: 'about',
+   id: '',
    lightBg: false,
    lightText: true,
    lightTextDesc: true,
@@ -37,23 +18,24 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-   id: 'discover',
-   lightBg: true,
-   lightText: false,
-   lightTextDesc: false,
+   id: 'about',
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: true,
    topLine: 'Ultimated Access',
    headLine: 'Unlimited Transactions with zero fees',
    description: 'Get access to our exclusive app that allows you to send unlimited trabsactions without getting charged any fees.',
    buttonLabel: 'Piggybank',
    imgStart: true,
-   img: `${pageImages('./svg-6.svg').default}`,
+   img: `${pageImages('./svg-5.svg').default}`,
    alt: 'Computo',
-   dark: false,
-   primary: false,
-   darkText: true,
+   dark: true,
+   primary: true,
+   darkText: false,
 };
+
 export const homeObjThree = {
-   id: 'signup',
+   id: 'skills',
    lightBg: true,
    lightText: false,
    lightTextDesc: false,
