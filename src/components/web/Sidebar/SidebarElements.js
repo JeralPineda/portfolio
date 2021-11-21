@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
-import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const SidebarContainer = styled.aside`
@@ -14,6 +13,7 @@ export const SidebarContainer = styled.aside`
    top: 0;
    left: 0;
    transition: 0.3s ease-in-out;
+
    /* backdrop-filter: blur(200px); */
    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
@@ -61,7 +61,7 @@ export const SidebarLink = styled(LinkS)`
    cursor: pointer;
 
    &:hover {
-      color: #01bf71;
+      color: #590271;
       transition: 0.2s ease-in-out;
    }
 `;
@@ -71,21 +71,21 @@ export const SideBtnWrapp = styled.div`
    justify-content: center;
 `;
 
-export const SidebarRoute = styled(LinkR)`
-   border-radius: 5rem;
-   background: #01bf71;
-   padding: 1.6rem 6.4rem;
-   color: #010606;
-   font-size: 1.8rem;
-   outline: none;
-   border: none;
-   cursor: pointer;
-   transition: all 0.2s ease-in-out;
-   text-decoration: none;
+export const SidebarSocial = styled.nav`
+   display: flex;
+   justify-content: center;
+`;
 
-   &:hover {
+export const SidebarSocialIcons = styled.a`
+   padding: 1rem 2.2rem;
+   font-size: 2.8rem;
+
+   path {
+      color: #ccca;
       transition: all 0.2s ease-in-out;
-      color: #010606;
-      background: #fafafa;
+
+      &:hover {
+         color: #fafafa;
+      }
    }
 `;

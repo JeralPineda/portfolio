@@ -1,5 +1,6 @@
 import React from 'react';
-import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarWrapper } from './SidebarElements';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarSocial, SidebarSocialIcons, SidebarWrapper } from './SidebarElements';
 
 export const Sidebar = ({ isOpen, toggle }) => {
    return (
@@ -11,18 +12,32 @@ export const Sidebar = ({ isOpen, toggle }) => {
          <SidebarWrapper>
             <SidebarMenu>
                <SidebarLink to='about' onClick={toggle}>
-                  About
+                  Sobre mi
                </SidebarLink>
-               <SidebarLink to='discover' onClick={toggle}>
-                  Discover
+
+               <SidebarLink to='skills' onClick={toggle}>
+                  Habilidades
                </SidebarLink>
-               <SidebarLink to='services' onClick={toggle}>
-                  Services
-               </SidebarLink>
-               <SidebarLink to='signup' onClick={toggle}>
-                  Sign Up
+
+               <SidebarLink to='projects' onClick={toggle}>
+                  Proyectos
                </SidebarLink>
             </SidebarMenu>
+
+            {/* Social icon */}
+            <SidebarSocial>
+               <SidebarSocialIcons href='https://github.com/JeralPineda' target='_blank' aria-label='GitHub'>
+                  <FaGithub />
+               </SidebarSocialIcons>
+
+               <SidebarSocialIcons href='/' target='_blank' aria-label='Linkendin'>
+                  <FaLinkedin />
+               </SidebarSocialIcons>
+
+               <SidebarSocialIcons href='https://twitter.com/jeral22800823' target='_blank' aria-label='Twitter'>
+                  <FaTwitter />
+               </SidebarSocialIcons>
+            </SidebarSocial>
          </SidebarWrapper>
       </SidebarContainer>
    );
