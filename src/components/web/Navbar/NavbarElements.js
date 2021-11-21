@@ -89,31 +89,25 @@ export const NavLinks = styled(LinkS)`
    }
 `;
 
-export const NavBtn = styled.nav`
-   display: flex;
+export const NavSocial = styled.nav`
    align-items: center;
+   display: flex;
 
    @media screen and (max-width: 768px) {
       display: none;
    }
 `;
 
-export const NavBtnLink = styled(LinkR)`
-   border-radius: 5rem;
-   background: #01bf71;
-   white-space: nowrap;
+export const NavSocialIcons = styled.a`
    padding: 1rem 2.2rem;
-   color: #010606;
-   font-size: 1.8rem;
-   outline: none;
-   border: none;
-   cursor: pointer;
-   transition: all 0.2s ease-in-out;
-   text-decoration: none;
+   font-size: 2.6rem;
 
-   &:hover {
+   path {
+      color: #fafafa;
       transition: all 0.2s ease-in-out;
-      background: #fafafa;
-      color: #010606;
+
+      &:hover {
+         color: #ccca;
+      }
    }
 `;
