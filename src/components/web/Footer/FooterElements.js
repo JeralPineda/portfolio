@@ -108,10 +108,10 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-   color: #fafafa;
+   color: #ccc;
    font-size: 24px;
 
    &:hover {
-      color: #ccc;
+      color: #fafafa;
    }
 `;
