@@ -19,7 +19,7 @@ export const Home = () => {
       <>
          <Sidebar isOpen={isOpen} toggle={toggle} />
          <Navbar toggle={toggle} />
-         <HeroSection />
+         <HeroSection {...homeObjOne} />
          <InfoSection {...homeObjOne} />
          <InfoSection {...homeObjTwo} />
          <Services />
