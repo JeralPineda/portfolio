@@ -77,7 +77,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-   color: #01bf71;
+   color: #ccca;
    font-size: 1.6rem;
    line-height: 1.6rem;
    font-weight: 700;
@@ -113,8 +113,7 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-   max-width: 40rem;
-   padding: 0 4px;
+   width: 40rem;
    height: 40rem;
    border: 2px double #ccc;
    background: inherit;
@@ -123,22 +122,21 @@ export const ImgWrap = styled.div`
    justify-content: center;
    align-items: center;
 
-   /* border-radius: 50%; */
-   border-bottom-left-radius: 26%;
-   border-bottom-right-radius: 26%;
-   border-top-left-radius: 26%;
-   border-top-right-radius: 26%;
+   border-radius: 50%;
+
+   @media screen and (max-width: 480px) {
+      width: 30rem;
+      height: 30rem;
+   }
+
+   @media screen and (max-width: 400px) {
+      width: 25rem;
+      height: 25rem;
+   }
 `;
 
 export const Img = styled.img`
    width: 100%;
-   border: 2px double #ccc;
-   /* width: 38rem; */
-   height: 38rem;
-
-   /* border-radius: 26%; */
-   border-bottom-left-radius: 26%;
-   border-bottom-right-radius: 26%;
-   border-top-left-radius: 26%;
-   border-top-right-radius: 26%;
+   border-radius: 50%;
+   padding: 1rem;
 `;

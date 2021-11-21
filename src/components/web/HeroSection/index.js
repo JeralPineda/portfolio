@@ -3,7 +3,7 @@ import React from 'react';
 import { BtnWrap, Column1, Column2, Heading, HeroContainer, HeroRow, HeroWrapper, Img, ImgWrap, Subtitle, TextWrapper, TopLine } from './HeroElements';
 import { Button } from 'components/ButtonElement';
 
-import image from 'assets/images/deadpool.jpg';
+import image from 'assets/images/jeral.jpg';
 import wallpaper from 'assets/images/px.jpg';
 
 export const HeroSection = ({ primary, dark, dark2 }) => {
