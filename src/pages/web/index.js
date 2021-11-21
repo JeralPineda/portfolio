@@ -5,7 +5,7 @@ import { Navbar } from 'components/web/Navbar';
 import { HeroSection } from 'components/web/HeroSection';
 import { InfoSection } from 'components/web/InfoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from 'components/web/InfoSection/Data';
-import { Projects } from 'components/web/Projects';
+import { Projects } from 'components/web/Project';
 import { Footer } from 'components/web/Footer';
 
 export const Home = () => {
