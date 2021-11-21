@@ -7,7 +7,7 @@ import Icon3 from 'assets/images/svg-3.svg';
 
 export const Services = () => {
    return (
-      <ServicesContainer id='services'>
+      <ServicesContainer id='projects'>
          <ServicesH1>Our Services</ServicesH1>
 
          <ServicesWrapper>
