@@ -49,8 +49,6 @@ export const Footer = () => {
                <SocialMediaWrap>
                   <SocialLogo to='/'>Jeral Pineda</SocialLogo>
 
-                  {/* <WebsiteRights>Jeral &copy; 2021 {new Date().getFullYear()} All rights reserved.</WebsiteRights> */}
-
                   <SocialIcons>
                      <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                         <FaFacebook />
