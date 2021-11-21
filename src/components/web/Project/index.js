@@ -8,7 +8,7 @@ import Icon3 from 'assets/images/svg-3.svg';
 export const Projects = () => {
    return (
       <ProjectsContainer id='projects'>
-         <ProjectsH1>Our Projects</ProjectsH1>
+         <ProjectsH1>Proyectos</ProjectsH1>
 
          <ProjectsWrapper>
             <ProjectsCard>
