@@ -1,43 +1,45 @@
-import React, { useState } from 'react';
-import { ArrowForward, ArrowRigth, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroImg, HeroP, Img, VideoBg } from './HeroElements';
-import Video from '../../../videos/video.mp4';
-import image from '../../../assets/images/deadpool.jpg';
+import React from 'react';
+
+import { BtnWrap, Column1, Column2, Heading, HeroContainer, HeroRow, HeroWrapper, Img, ImgWrap, Subtitle, TextWrapper, TopLine } from './HeroElements';
 import { Button } from 'components/ButtonElement';
 
-export const HeroSection = () => {
-   const [hover, setHover] = useState(false);
+import image from 'assets/images/deadpool.jpg';
+import wallpaper from 'assets/images/px.jpg';
 
-   const onHover = () => {
-      setHover(!hover);
-   };
-
+export const HeroSection = ({ primary, dark, dark2 }) => {
    return (
-      <HeroContainer>
-         <HeroBg>
-            <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
-         </HeroBg>
-
-         <HeroContent>
-            <HeroImg>
-               <Img src={image} />
-            </HeroImg>
-
-            <HeroH1>Virtual Backing Made Easy</HeroH1>
-            <HeroP>Sign up for a new account today and receive $250 in credit towards your next payment.</HeroP>
-
-            <HeroBtnWrapper>
-               <Button
-                  //
-                  to='signup'
-                  onMouseEnter={onHover}
-                  onMouseLeave={onHover}
-                  primary='true'
-                  dark='true'
-               >
-                  Get started {hover ? <ArrowForward /> : <ArrowRigth />}
-               </Button>
-            </HeroBtnWrapper>
-         </HeroContent>
+      <HeroContainer wallpaper={wallpaper}>
+         <HeroWrapper>
+            <HeroRow>
+               <Column1>
+                  <TextWrapper>
+                     <TopLine>Ultimated Access</TopLine>
+                     <Heading>Unlimited Transactions with zero fees</Heading>
+                     <Subtitle>Get access to our exclusive app that allows you to send unlimited trabsactions without getting charged any fees.</Subtitle>
+                     <BtnWrap>
+                        <Button
+                           //
+                           to='home'
+                           primary={primary ? 1 : 0}
+                           dark={dark ? 1 : 0}
+                           dark2={dark2 ? 1 : 0}
+                        >
+                           Contactame
+                        </Button>
+                     </BtnWrap>
+                  </TextWrapper>
+               </Column1>
+               <Column2>
+                  <ImgWrap>
+                     <Img
+                        //
+                        src={image}
+                        alt='imagen'
+                     />
+                  </ImgWrap>
+               </Column2>
+            </HeroRow>
+         </HeroWrapper>
       </HeroContainer>
    );
 };
