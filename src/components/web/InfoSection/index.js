@@ -17,7 +17,7 @@ export const InfoSection = ({ lightBg, lightText, id, imgStart, topLine, headLin
                         <BtnWrap>
                            <ButtonLink
                               //
-                              to={pdf}
+                              to={`${pdf}`}
                               target='_blank'
                               primary={primary ? 1 : 0}
                               dark={dark ? 1 : 0}
