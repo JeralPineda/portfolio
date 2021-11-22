@@ -3,19 +3,16 @@ import React from 'react';
 import { BtnWrap, Column1, Column2, Heading, HeroContainer, HeroRow, HeroWrapper, Img, ImgWrap, Subtitle, TextWrapper, TopLine } from './HeroElements';
 import { Button } from 'components/ButtonElement';
 
-import image from 'assets/images/jeral.jpg';
-import wallpaper from 'assets/images/px.jpg';
-
-export const HeroSection = ({ primary, dark, dark2 }) => {
+export const HeroSection = ({ lightText, imgStart, topLine, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2, wallpaper }) => {
    return (
       <HeroContainer wallpaper={wallpaper}>
          <HeroWrapper>
-            <HeroRow>
+            <HeroRow imgStart={imgStart}>
                <Column1>
                   <TextWrapper>
-                     <TopLine>Ultimated Access</TopLine>
-                     <Heading>Unlimited Transactions with zero fees</Heading>
-                     <Subtitle>Get access to our exclusive app that allows you to send unlimited trabsactions without getting charged any fees.</Subtitle>
+                     <TopLine>{topLine}</TopLine>
+                     <Heading lightText={lightText}>{headLine}</Heading>
+                     <Subtitle darkText={darkText}>{description}</Subtitle>
                      <BtnWrap>
                         <Button
                            //
@@ -24,7 +21,7 @@ export const HeroSection = ({ primary, dark, dark2 }) => {
                            dark={dark ? 1 : 0}
                            dark2={dark2 ? 1 : 0}
                         >
-                           Contactame
+                           {buttonLabel}
                         </Button>
                      </BtnWrap>
                   </TextWrapper>
@@ -33,8 +30,8 @@ export const HeroSection = ({ primary, dark, dark2 }) => {
                   <ImgWrap>
                      <Img
                         //
-                        src={image}
-                        alt='imagen'
+                        src={img}
+                        alt={alt}
                      />
                   </ImgWrap>
                </Column2>
