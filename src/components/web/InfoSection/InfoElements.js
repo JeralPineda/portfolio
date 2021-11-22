@@ -87,13 +87,12 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-   max-width: 50rem;
+   max-width: 40rem;
    height: 100%;
 `;
 
 export const Img = styled.img`
    width: 100%;
-   height: 300px;
    margin: 0 0 1rem 0;
    border-radius: 30px;
    -moz-border-radius: 50px;
