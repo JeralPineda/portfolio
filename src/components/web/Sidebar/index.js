@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarSocial, SidebarSocialIcons, SidebarWrapper } from './SidebarElements';
+import { CloseIcon, GlobalStyle, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarSocial, SidebarSocialIcons, SidebarWrapper } from './SidebarElements';
 
 export const Sidebar = ({ isOpen, toggle }) => {
    return (
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
+         <GlobalStyle isOpen={isOpen}></GlobalStyle>
          <Icon onClick={toggle}>
             <CloseIcon />
          </Icon>

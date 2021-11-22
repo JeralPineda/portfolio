@@ -1,6 +1,12 @@
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 import { Link as LinkS } from 'react-scroll';
+
+export const GlobalStyle = createGlobalStyle`
+    body{
+        overflow: ${({ isOpen }) => (isOpen ? 'hidden' : '')}
+    }
+`;
 
 export const SidebarContainer = styled.aside`
    position: fixed;
