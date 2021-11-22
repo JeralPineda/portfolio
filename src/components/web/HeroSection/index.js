@@ -1,9 +1,13 @@
 import React from 'react';
 
 import { BtnWrap, Column1, Column2, Heading, HeroContainer, HeroRow, HeroWrapper, Img, ImgWrap, Subtitle, TextWrapper, TopLine } from './HeroElements';
-import { Button } from 'components/ButtonElement';
+import { ButtonLink } from 'components/ButtonElement';
 
 export const HeroSection = ({ lightText, imgStart, topLine, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2, wallpaper }) => {
+   const handleClick = () => {
+      window.open('mailto:jeral.cris@gmail.com');
+   };
+
    return (
       <HeroContainer wallpaper={wallpaper}>
          <HeroWrapper>
@@ -14,15 +18,17 @@ export const HeroSection = ({ lightText, imgStart, topLine, headLine, darkText, 
                      <Heading lightText={lightText}>{headLine}</Heading>
                      <Subtitle darkText={darkText}>{description}</Subtitle>
                      <BtnWrap>
-                        <Button
+                        <ButtonLink
                            //
-                           to='home'
+                           to='/'
+                           target='_blank'
+                           onClick={handleClick}
                            primary={primary ? 1 : 0}
                            dark={dark ? 1 : 0}
                            dark2={dark2 ? 1 : 0}
                         >
                            {buttonLabel}
-                        </Button>
+                        </ButtonLink>
                      </BtnWrap>
                   </TextWrapper>
                </Column1>
