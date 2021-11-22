@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
    color: #fafafa;
-   background: ${({ lightBg }) => (lightBg ? '#fafafa' : '#010606')};
+   background: ${({ lightBg }) => (lightBg ? '#fafafa' : '#000')};
 
    @media screen and (max-width: 768px) {
       padding: 10rem 0;
@@ -87,12 +87,19 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-   max-width: 55rem;
+   max-width: 50rem;
    height: 100%;
 `;
 
 export const Img = styled.img`
    width: 100%;
+   height: 300px;
    margin: 0 0 1rem 0;
-   padding-right: 0;
+   border-radius: 30px;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+
+   box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.75);
+   -webkit-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.75);
+   -moz-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.75);
 `;
