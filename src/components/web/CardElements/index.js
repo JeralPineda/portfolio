@@ -17,24 +17,20 @@ export const Card = ({ title, subtitle, descriptions, linkGitHub, linkDemo, img 
             <div className='card-header'>
                <h2>{title}</h2>
                <div className='container-icon'>
-                  <button className='icon-button'>
-                     <CardButtonLink
-                        //
-                        to='/'
-                        onClick={() => handleClick(linkGitHub)}
-                     >
-                        Codigo
-                     </CardButtonLink>
-                  </button>
-                  <button className='icon-button'>
-                     <CardButtonLink
-                        //
-                        to='/'
-                        onClick={() => handleClick(linkDemo)}
-                     >
-                        Demo
-                     </CardButtonLink>
-                  </button>
+                  <CardButtonLink
+                     //
+                     to='/'
+                     onClick={() => handleClick(linkGitHub)}
+                  >
+                     Codigo
+                  </CardButtonLink>
+                  <CardButtonLink
+                     //
+                     to='/'
+                     onClick={() => handleClick(linkDemo)}
+                  >
+                     Demo
+                  </CardButtonLink>
                </div>
             </div>
             <div className='card-footer'>
