@@ -1,5 +1,3 @@
-import { projectImages } from 'helpers/heroImages';
-
 export const projects = [
    {
       id: '1',
@@ -8,7 +6,7 @@ export const projects = [
       title: 'Portafolio Personal',
       subtitle: 'React y  Styled Components',
       descriptions: 'Este es mi portafolio personal',
-      img: `${projectImages('./wallpaper.jpg').default}`,
+      img: `${require('assets/images/projects/wallpaper.jpg').default}`,
    },
    {
       id: '2',
