@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
    background-color: #000000;
-   border-top: 1px solid #ccca;
+   border-top: 1px solid #080808;
 `;
 
 export const FooterWrap = styled.div`
