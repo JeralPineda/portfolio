@@ -3,7 +3,7 @@ export const projects = [
       id: '1',
       linkGitHub: 'https://github.com/JeralPineda',
       linkDemo: 'https://github.com/JeralPineda',
-      title: 'Portafolio Personal',
+      title: 'Portafolio',
       subtitle: 'React y  Styled Components',
       descriptions: 'Este es mi portafolio personal',
       img: `${require('assets/images/projects/wallpaper.jpg').default}`,
