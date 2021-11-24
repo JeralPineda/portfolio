@@ -4,9 +4,10 @@ import { Sidebar } from 'components/web/Sidebar';
 import { Navbar } from 'components/web/Navbar';
 import { HeroSection } from 'components/web/HeroSection';
 import { InfoSection } from 'components/web/InfoSection';
-import { homeObjOne, homeObjThree, homeObjTwo } from 'components/web/InfoSection/Data';
+import { homeObjOne, homeObjTwo } from 'components/web/InfoSection/Data';
 import { Projects } from 'components/web/Project';
 import { Footer } from 'components/web/Footer';
+import { Skill } from 'components/web/Skill';
 
 export const Home = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ export const Home = () => {
          <Navbar toggle={toggle} />
          <HeroSection {...homeObjOne} />
          <InfoSection {...homeObjTwo} />
-         <InfoSection {...homeObjThree} />
+         <Skill />
          <Projects />
          <Footer />
       </>
