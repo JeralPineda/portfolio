@@ -6,7 +6,7 @@ export const projects = [
       title: 'Portafolio',
       subtitle: 'React y  Styled Components',
       descriptions: 'Este es mi portafolio personal',
-      img: `${require('assets/images/projects/wallpaper.jpg').default}`,
+      img: `${require('assets/images/projects/project1.png').default}`,
    },
    {
       id: '2',
@@ -15,7 +15,7 @@ export const projects = [
       title: 'MERN Calendar',
       subtitle: 'React, Node.js, MongoDB y Redux ',
       descriptions: 'App para crear eventos, borrar y editarlos',
-      img: `${require('assets/images/projects/wallpaper.jpg').default}`,
+      img: `${require('assets/images/projects/project2.png').default}`,
    },
    {
       id: '3',
@@ -24,6 +24,6 @@ export const projects = [
       title: 'Modulo Login',
       subtitle: 'Node.js, MySQL, Handlebars y Bootstrap',
       descriptions: 'Modulo login, proyecto de la universidad',
-      img: `${require('assets/images/projects/wallpaper.jpg').default}`,
+      img: `${require('assets/images/projects/project3.png').default}`,
    },
 ];
