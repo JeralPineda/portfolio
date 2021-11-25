@@ -6,7 +6,7 @@ export const SkillContainer = styled.div`
    align-items: center;
    position: relative;
    z-index: 1;
-   padding: 10px 30px;
+   padding: 1rem 3rem;
    overflow: hidden;
    animation: hue 10s infinite alternate;
 
@@ -27,8 +27,8 @@ export const SkillContainer = styled.div`
       text-align: center;
       font-size: 2.5rem;
       color: #fafafa;
-      margin-top: 150px;
-      margin-bottom: 65px;
+      margin-top: 15rem;
+      margin-bottom: 6.5rem;
 
       @media screen and (max-width: 480px) {
          font-size: 2rem;
