@@ -12,6 +12,8 @@ html {
 
 body {
    font-family: 'Encode Sans Expanded', sans-serif;
+   background-color: #000;
+   color: #fafafa;
 }
 
 ::-webkit-scrollbar {
