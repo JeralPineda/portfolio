@@ -2,7 +2,7 @@
     "name": "website-frontend",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://jeralpineda.github.io/portafolio",
+    "homepage": "https://jeralpineda.github.io/portfolio",
     "dependencies": {
         "@testing-library/react": "^11.2.7",
         "@testing-library/user-event": "^12.8.3",
