@@ -29,7 +29,7 @@ export const homeObjTwo = {
    buttonLabel: 'Descargar CV',
    pdf: `${require('assets/pdf/CV_Sneyder_Barreto_ES.pdf').default}`,
    imgStart: false,
-   img: `${pageImages('./about.jpg').default}`,
+   img: `${pageImages('./about1.jpg').default}`,
    alt: 'Computo',
    dark: true,
    primary: true,
