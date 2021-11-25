@@ -38,13 +38,13 @@ export const Footer = () => {
                   <SocialLogo to='/'>Jeral Pineda</SocialLogo>
 
                   <SocialIcons>
-                     <SocialIconLink to='https://github.com/JeralPineda' target='_blank' aria-label='GitHub'>
+                     <SocialIconLink href='https://github.com/JeralPineda' target='_blank' aria-label='GitHub'>
                         <FaGithub />
                      </SocialIconLink>
-                     <SocialIconLink to='https://twitter.com/jeral22800823' target='_blank' aria-label='Twitter'>
+                     <SocialIconLink href='https://twitter.com/jeral22800823' target='_blank' aria-label='Twitter'>
                         <FaTwitter />
                      </SocialIconLink>
-                     <SocialIconLink to='https://es.linkedin.com/' target='_blank' aria-label='Linkedin'>
+                     <SocialIconLink href='https://es.linkedin.com/' target='_blank' aria-label='Linkedin'>
                         <FaLinkedinIn />
                      </SocialIconLink>
                   </SocialIcons>
