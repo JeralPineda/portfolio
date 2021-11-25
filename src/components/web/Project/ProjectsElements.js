@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-   height: 800px;
+   height: 80rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -44,7 +44,7 @@ export const ProjectsWrapper = styled.div`
    grid-template-columns: 1fr 1fr 1fr;
    align-items: center;
    grid-gap: 1.6rem;
-   padding: 0 50px;
+   padding: 0 5rem;
 
    @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr;
@@ -52,14 +52,14 @@ export const ProjectsWrapper = styled.div`
 
    @media screen and (max-width: 768px) {
       grid-template-columns: 1fr;
-      padding: 0 20px;
+      padding: 0 2rem;
    }
 `;
 
 export const ProjectsH1 = styled.h1`
    font-size: 2.5rem;
    color: #fafafa;
-   margin-bottom: 64px;
+   margin-bottom: 6.4rem;
 
    @media screen and (max-width: 480px) {
       font-size: 2rem;
