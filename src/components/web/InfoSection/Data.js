@@ -27,7 +27,7 @@ export const homeObjTwo = {
    headLine: 'Unlimited Transactions with zero fees',
    description: 'Get access to our exclusive app that allows you to send unlimited trabsactions without getting charged any fees.',
    buttonLabel: 'Descargar CV',
-   pdf: `${require('assets/pdf/CV_Sneyder_Barreto_ES.pdf').default}`,
+   pdf: `${require('assets/pdf/CV_Jeral_Pineda.pdf').default}`,
    imgStart: false,
    img: `${pageImages('./about1.jpg').default}`,
    alt: 'Computo',
