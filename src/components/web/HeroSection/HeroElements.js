@@ -1,145 +1,143 @@
 import styled from 'styled-components';
 
-import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
-
 export const HeroContainer = styled.div`
-   background: #0c0c0c;
-
-   /* background: rgb(2, 31, 7);
-   background: radial-gradient(circle, rgba(2, 31, 7, 1) 0%, rgba(0, 0, 0, 1) 77%); */
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 0 3rem;
-   height: 80rem;
+   color: #fafafa;
+   background: ${({ wallpaper }) => (wallpaper ? `url(${wallpaper}) center/cover` : '#000')};
    position: relative;
    z-index: 1;
+   overflow: hidden;
+   animation: hue 10s infinite alternate;
 
-   :before {
+   &::after {
       content: '';
+      width: 100%;
+      height: 100%;
+      background: inherit;
       position: absolute;
       top: 0;
-      right: 0;
       left: 0;
-      bottom: 0;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-      z-index: 2;
+      filter: blur(2rem);
+      z-index: -1;
+      transform: scale(1.15);
+   }
+
+   @media screen and (max-width: 768px) {
+      padding: 10rem 0;
+   }
+
+   @keyframes hue {
+      from {
+         filter: hue-rotate(15deg);
+      }
+      /* to {
+         filter: hue-rotate(360deg);
+      } */
    }
 `;
 
-export const HeroBg = styled.div`
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
+export const HeroWrapper = styled.div`
+   display: grid;
+   z-index: 1;
+   height: 860px;
    width: 100%;
-   height: 100%;
-   overflow: hidden;
+   max-width: 1100px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0 2.4rem;
+   justify-content: center;
 `;
 
-export const VideoBg = styled.video`
-   width: 100%;
-   height: 100%;
-   --o-object-fit: cover;
-   object-fit: cover;
-   background: #232a34;
-`;
-
-export const HeroContent = styled.div`
-   z-index: 3;
-   max-width: 120rem;
-   position: absolute;
-   padding: 0.8rem 2.4rem;
-   display: flex;
-   flex-direction: column;
+export const HeroRow = styled.div`
+   display: grid;
+   grid-template-columns: minmax(auto, 1fr);
    align-items: center;
+   grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+
+   @media screen and (max-width: 768px) {
+      grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+   }
 `;
 
-export const HeroH1 = styled.h1`
-   color: #fafafa;
+export const Column1 = styled.div`
+   margin-bottom: 1.5rem;
+   padding: 0 1.5rem;
+   grid-area: col1;
+`;
+
+export const Column2 = styled.div`
+   margin-bottom: 1.5rem;
+   padding: 0 1.5rem;
+   grid-area: col2;
+`;
+
+export const TextWrapper = styled.div`
+   max-width: 54rem;
+   padding-top: 0;
+   padding-bottom: 6rem;
+`;
+
+export const TopLine = styled.p`
+   color: #ccca;
+   font-size: 1.6rem;
+   line-height: 1.6rem;
+   font-weight: 700;
+   letter-spacing: 0.14rem;
+   text-transform: uppercase;
+   margin-bottom: 1.6rem;
+`;
+
+export const Heading = styled.h1`
+   margin-bottom: 2.4rem;
    font-size: 4.8rem;
-   text-align: center;
-
-   @media screen and (max-width: 768px) {
-      font-size: 4rem;
-   }
-
-   @media screen and (max-width: 400px) {
-      font-size: 3.2rem;
-   }
-`;
-
-export const HeroP = styled.p`
-   margin-top: 2.4rem;
+   line-height: 1.1;
+   font-weight: 600;
    color: #fafafa;
-   font-size: 2.4rem;
-   text-align: center;
-   max-width: 60rem;
 
-   @media screen and (max-width: 768px) {
-      font-size: 4rem;
-   }
-
-   @media screen and (max-width: 400px) {
+   @media screen and (max-width: 480px) {
       font-size: 3.2rem;
    }
 `;
 
-export const HeroBtnWrapper = styled.div`
-   margin-top: 3.2rem;
+export const Subtitle = styled.p`
+   max-width: 44rem;
+   margin-bottom: 3.5rem;
+
+   font-size: 1.8rem;
+   line-height: 2.4rem;
+   color: ${({ darkText }) => (darkText ? '#010606' : '#fafafa')};
+`;
+
+export const BtnWrap = styled.div`
    display: flex;
-   flex-direction: column;
-   align-items: center;
+   justify-content: flex-start;
 `;
 
-export const ArrowForward = styled(MdArrowForward)`
-   margin-left: 0.8rem;
-   font-size: 2rem;
-`;
-
-export const ArrowRigth = styled(MdKeyboardArrowRight)`
-   margin-left: 0.8rem;
-   font-size: 2rem;
-`;
-
-export const HeroImg = styled.div`
-   margin-bottom: 1rem;
-   position: relative;
-   width: 22rem;
-   height: 25rem;
-   border: 2px double #fafafa;
+export const ImgWrap = styled.div`
+   width: 40rem;
+   height: 40rem;
+   border: 2px double #ccc;
    background: inherit;
    overflow: hidden;
    display: flex;
    justify-content: center;
    align-items: center;
-   /* border-radius: 50%; */
-   border-bottom-left-radius: 33%;
-   border-bottom-right-radius: 33%;
 
-   border-top-left-radius: 33%;
-   border-top-right-radius: 33%;
+   border-radius: 50%;
 
-   /* &::after {
-      content: '';
-      width: 300px;
-      height: 300px;
-      background: inherit;
-      position: absolute;
-      box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.1);
-      filter: blur(15px);
-   } */
+   @media screen and (max-width: 480px) {
+      width: 30rem;
+      height: 30rem;
+   }
+
+   @media screen and (max-width: 400px) {
+      width: 25rem;
+      height: 25rem;
+   }
 `;
 
 export const Img = styled.img`
-   width: 18rem;
-   height: 20rem;
-   /* border-radius: 50%; */
-   border-bottom-left-radius: 33%;
-   border-bottom-right-radius: 33%;
-
-   border-top-left-radius: 33%;
-   border-top-right-radius: 33%;
+   width: 100%;
+   border-radius: 50%;
+   padding: 1rem;
+   filter: brightness(70%);
 `;

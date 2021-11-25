@@ -1,43 +1,48 @@
-import React, { useState } from 'react';
-import { ArrowForward, ArrowRigth, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroImg, HeroP, Img, VideoBg } from './HeroElements';
-import Video from '../../../videos/video.mp4';
-import image from '../../../assets/images/deadpool.jpg';
-import { Button } from 'components/ButtonElement';
+import React from 'react';
 
-export const HeroSection = () => {
-   const [hover, setHover] = useState(false);
+import { BtnWrap, Column1, Column2, Heading, HeroContainer, HeroRow, HeroWrapper, Img, ImgWrap, Subtitle, TextWrapper, TopLine } from './HeroElements';
+import { ButtonLink } from 'components/ButtonElement';
 
-   const onHover = () => {
-      setHover(!hover);
+export const HeroSection = ({ lightText, imgStart, topLine, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2, wallpaper }) => {
+   const handleClick = () => {
+      window.open('mailto:jeral.cris@gmail.com');
    };
 
    return (
-      <HeroContainer>
-         <HeroBg>
-            <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
-         </HeroBg>
-
-         <HeroContent>
-            <HeroImg>
-               <Img src={image} />
-            </HeroImg>
-
-            <HeroH1>Virtual Backing Made Easy</HeroH1>
-            <HeroP>Sign up for a new account today and receive $250 in credit towards your next payment.</HeroP>
-
-            <HeroBtnWrapper>
-               <Button
-                  //
-                  to='signup'
-                  onMouseEnter={onHover}
-                  onMouseLeave={onHover}
-                  primary='true'
-                  dark='true'
-               >
-                  Get started {hover ? <ArrowForward /> : <ArrowRigth />}
-               </Button>
-            </HeroBtnWrapper>
-         </HeroContent>
+      <HeroContainer wallpaper={wallpaper}>
+         <HeroWrapper>
+            <HeroRow imgStart={imgStart}>
+               <Column1>
+                  <TextWrapper>
+                     <TopLine>{topLine}</TopLine>
+                     <Heading lightText={lightText}>{headLine}</Heading>
+                     <Subtitle darkText={darkText}>{description}</Subtitle>
+                     <BtnWrap>
+                        <ButtonLink
+                           //
+                           to='/'
+                           target='_blank'
+                           onClick={handleClick}
+                           primary={primary ? 1 : 0}
+                           dark={dark ? 1 : 0}
+                           dark2={dark2 ? 1 : 0}
+                        >
+                           {buttonLabel}
+                        </ButtonLink>
+                     </BtnWrap>
+                  </TextWrapper>
+               </Column1>
+               <Column2>
+                  <ImgWrap>
+                     <Img
+                        //
+                        src={img}
+                        alt={alt}
+                     />
+                  </ImgWrap>
+               </Column2>
+            </HeroRow>
+         </HeroWrapper>
       </HeroContainer>
    );
 };
