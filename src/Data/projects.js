@@ -1,8 +1,8 @@
 export const projects = [
    {
       id: '1',
-      linkGitHub: 'https://github.com/JeralPineda',
-      linkDemo: 'https://github.com/JeralPineda',
+      linkGitHub: 'https://github.com/JeralPineda/portfolio',
+      linkDemo: 'https://jeralpineda.github.io/portfolio/',
       title: 'Portafolio',
       subtitle: 'React y  Styled Components',
       descriptions: 'Este es mi portafolio personal',
