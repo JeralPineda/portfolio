@@ -29,7 +29,7 @@ export const Navbar = ({ toggle }) => {
          <IconContext.Provider value={{ color: '#fafafa' }}>
             <Nav scrollNav={scrollNav}>
                <NavbarContainer>
-                  <NavLogo to='/' onClick={toggleHome}>
+                  <NavLogo to='/portfolio' onClick={toggleHome}>
                      JeralPineda
                   </NavLogo>
 
