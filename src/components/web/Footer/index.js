@@ -59,7 +59,7 @@ export const Footer = () => {
                      {/* <FooterLinkTitle>Social Media</FooterLinkTitle> */}
                      <FooterLink
                         //
-                        to='skills'
+                        to='projects'
                         smooth={true}
                         duration={500}
                         spy={true}
