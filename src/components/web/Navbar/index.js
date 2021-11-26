@@ -83,7 +83,7 @@ export const Navbar = ({ toggle }) => {
                         <NavSocialIcons href='https://github.com/JeralPineda' target='_blank' aria-label='GitHub'>
                            <FaGithub />
                         </NavSocialIcons>
-                        <NavSocialIcons href='/' target='_blank' aria-label='Linkendin'>
+                        <NavSocialIcons href='https://www.linkedin.com/in/jeral-pineda-426759187/' target='_blank' aria-label='Linkendin'>
                            <FaLinkedin />
                         </NavSocialIcons>
 
