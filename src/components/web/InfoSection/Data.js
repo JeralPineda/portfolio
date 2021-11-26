@@ -1,7 +1,7 @@
 import { pageImages } from 'helpers/heroImages';
 
 export const homeObjOne = {
-   id: '',
+   id: 'home',
    lightBg: false,
    lightText: true,
    lightTextDesc: true,
