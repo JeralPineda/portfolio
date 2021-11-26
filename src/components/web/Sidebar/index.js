@@ -31,7 +31,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
                   <FaGithub />
                </SidebarSocialIcons>
 
-               <SidebarSocialIcons href='/' target='_blank' aria-label='Linkendin'>
+               <SidebarSocialIcons href='https://www.linkedin.com/in/jeral-pineda-426759187/' target='_blank' aria-label='Linkendin'>
                   <FaLinkedin />
                </SidebarSocialIcons>
 
