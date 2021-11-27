@@ -66,7 +66,7 @@ export const CardContainer = styled.div`
       border: 0;
       background-color: transparent;
       padding: 0px;
-      height: 46px;
+      height: 25px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -115,9 +115,7 @@ export const CardContainer = styled.div`
 export const CardButtonLink = styled(Link)`
    width: 3rem;
    height: 3rem;
-   border-radius: 50%;
    margin-left: 0.5rem;
-   background: ${({ primary }) => (primary ? '#590271' : '#010606')};
    white-space: nowrap;
    padding: 2.5rem;
    color: #fafafa;
@@ -128,13 +126,9 @@ export const CardButtonLink = styled(Link)`
    justify-content: center;
    align-items: center;
    text-decoration: none;
-   transition: all 0.2s ease-out ease-out;
-
-   background: rgb(0, 0, 0);
-   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(16, 1, 23, 1) 0%, rgba(30, 2, 40, 1) 26%, rgba(89, 2, 113, 1) 100%);
-   border: 1px solid #ccc;
+   transition: color 0.2s ease-out ease-out;
 
    &:hover {
-      background: #111;
+      color: #ccca;
    }
 `;
