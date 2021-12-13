@@ -115,7 +115,7 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
    width: 40rem;
    height: 40rem;
-   border: 2px double #ccc;
+   border: 2px double #fafafa;
    background: inherit;
    overflow: hidden;
    display: flex;
@@ -139,5 +139,5 @@ export const Img = styled.img`
    width: 100%;
    border-radius: 50%;
    padding: 1rem;
-   filter: brightness(70%);
+   /* filter: brightness(70%); */
 `;
