@@ -24,7 +24,7 @@ export const homeObjTwo = {
    lightText: true,
    lightTextDesc: true,
    topLine: 'Sobre mi',
-   headLine: 'Desarrollador FullStack',
+   headLine: 'Desarrollador Web FullStack',
    description: `Actualmente soy pasante de la carrera Informática Administrativa en la UNAH. Me gusta mucho el desarrollo web, aprender nuevas tecnologías y me gustaria aprender más sobre FrontEnd.
    `,
    buttonLabel: 'Descargar CV',
