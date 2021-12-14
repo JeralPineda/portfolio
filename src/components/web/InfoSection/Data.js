@@ -25,7 +25,7 @@ export const homeObjTwo = {
    lightTextDesc: true,
    topLine: 'Sobre mi',
    headLine: 'Desarrollador FullStack',
-   description: `Actualmente soy pasante de la carrera Informática Administrativa en la UNAH. Me gusta mucho el desarrollo web, aprender nuevas tecnologías, quisiera aprender más sobre FrontEnd y mi deporte favorito es el Tenis de Mesa.
+   description: `Actualmente soy pasante de la carrera Informática Administrativa en la UNAH. Me gusta mucho el desarrollo web, aprender nuevas tecnologías y me gustaria aprender más sobre FrontEnd.
    `,
    buttonLabel: 'Descargar CV',
    pdf: `${require('assets/pdf/CV_Jeral_Pineda.pdf').default}`,
