@@ -70,7 +70,7 @@ export const CardContainer = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-      cursor: pointer;
+      /* cursor: pointer; */
       line-height: 1;
       transition: 0.15s ease;
    }
@@ -126,7 +126,8 @@ export const CardButtonLink = styled(Link)`
    justify-content: center;
    align-items: center;
    text-decoration: none;
-   transition: color 0.2s ease-out ease-out;
+   transition: color 0.5s ease-in-out;
+   background: in;
 
    &:hover {
       color: #ccca;
