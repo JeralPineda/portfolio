@@ -8,7 +8,7 @@ export const SkillContainer = styled.div`
    z-index: 1;
    padding: 1rem 3rem;
    overflow: hidden;
-   animation: hue 10s infinite alternate;
+   animation: hue 2s infinite alternate;
 
    .container {
       @media screen and (max-width: 1000px) {
