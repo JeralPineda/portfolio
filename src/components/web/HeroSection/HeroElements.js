@@ -133,6 +133,10 @@ export const ImgWrap = styled.div`
       width: 25rem;
       height: 25rem;
    }
+   @media screen and (max-width: 310px) {
+      width: 21rem;
+      height: 21rem;
+   }
 `;
 
 export const Img = styled.img`
