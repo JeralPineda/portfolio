@@ -20,15 +20,17 @@ export const CardContainer = styled.div`
       overflow: hidden;
       padding: 1.25rem;
       position: relative;
-      transition: 0.15s ease-in;
       border: 1px solid transparent;
-      border: 1px solid #8787;
+      border: 1px solid #111;
+
+      transition: border 0.15s ease-in;
 
       &:hover {
-         transform: translatey(-3px);
-         -webkit-box-shadow: 0px 0px 16px 0px #111;
-         -moz-box-shadow: 0px 0px 16px 0px #111;
-         box-shadow: 0px 0px 16px 0px #111;
+         border: 1px solid #222;
+         transform: translatey(-4px);
+         -webkit-box-shadow: 0px 0px 16px 0px #222;
+         -moz-box-shadow: 0px 0px 16px 0px #222;
+         box-shadow: 0px 0px 16px 0px #222;
       }
    }
 
