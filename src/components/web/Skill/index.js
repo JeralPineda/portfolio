@@ -24,7 +24,7 @@ export const Skill = () => {
       dots: false,
       infinite: true,
       slidesToShow: width > 640 ? 4 : 3,
-      slidesToScroll: 2,
+      slidesToScroll: 1,
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
