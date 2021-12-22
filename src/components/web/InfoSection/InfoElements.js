@@ -89,16 +89,17 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
    max-width: 40rem;
    height: 100%;
+   position: relative;
+   background: linear-gradient(to right, #743ad5, #d53a9d);
+   padding: 2px 2px 1px 2px;
+   border-radius: 30px;
 `;
 
 export const Img = styled.img`
    width: 100%;
-   margin: 0 0 1rem 0;
    border-radius: 30px;
-   -moz-border-radius: 50px;
-   -webkit-border-radius: 50px;
 
-   box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.75);
-   -webkit-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.75);
-   -moz-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.75);
+   box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.5);
+   -webkit-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.5);
+   -moz-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.5);
 `;
