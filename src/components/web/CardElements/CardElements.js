@@ -14,10 +14,10 @@ export const CardContainer = styled.div`
    }
 
    .container-gradient {
-      background: linear-gradient(to right, #111, #111);
+      background: linear-gradient(to right, #111a, #111a);
       border-radius: 1.5rem;
       margin: 0;
-      padding: 1px;
+      padding: 2px;
       position: relative;
 
       transition: border 0.1s ease-out;
@@ -79,7 +79,6 @@ export const CardContainer = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-      /* cursor: pointer; */
       line-height: 1;
       transition: 0.15s ease;
    }
