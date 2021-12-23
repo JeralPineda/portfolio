@@ -26,7 +26,8 @@ export const Button = styled(Link)`
 `;
 
 export const ButtonLink = styled(LinkR)`
-   background: ${({ primary }) => (primary ? '#000' : '#010606')};
+   background: ${({ primary }) => (primary ? `linear-gradient(#000, #000) padding-box, linear-gradient(to right, #111, #444bdc) border-box;` : '#000')};
+
    border-radius: 1.1rem;
    white-space: nowrap;
    padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
@@ -41,10 +42,11 @@ export const ButtonLink = styled(LinkR)`
    position: relative;
    transition: background 0.2s ease-out;
 
-   border: ${({ primary }) => (primary ? '2px solid #ccc' : '1px solid #ccc')};
+   border: ${({ primary }) => (primary ? '2px solid transparent' : '1px solid #fafafa')};
 
    &:hover {
-      background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #743ad5, #d53a9d) border-box;
+      background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #111, #191e7e) border-box;
       border: 2px solid transparent;
+      color: #ccc;
    }
 `;
