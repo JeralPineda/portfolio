@@ -23,7 +23,7 @@ export const CardContainer = styled.div`
       transition: border 0.1s ease-out;
 
       &:hover {
-         background: linear-gradient(to right, #743ad5, #d53a9d);
+         background: linear-gradient(to right, #020323, #151a77) border-box;
          transform: translatey(-4px);
          -webkit-box-shadow: 0px 0px 16px 0px #222;
          -moz-box-shadow: 0px 0px 16px 0px #222;
