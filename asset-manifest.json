@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a446704.chunk.css",
-    "main.js": "/portfolio/static/js/main.005bc5c4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.005bc5c4.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e4aa773d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e4aa773d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2a064e63.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2a064e63.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
@@ -30,7 +30,7 @@
     "static/media/mongodb-.svg": "/portfolio/static/media/mongodb-.e4025ae2.svg",
     "static/media/mysql.png": "/portfolio/static/media/mysql.7d8d571e.png",
     "static/media/node-.svg": "/portfolio/static/media/node-.10354602.svg",
-    "static/media/project1.png": "/portfolio/static/media/project1.1e65447a.png",
+    "static/media/project1.png": "/portfolio/static/media/project1.a8e8d3c1.png",
     "static/media/project2.2.png": "/portfolio/static/media/project2.2.dfdf7ff2.png",
     "static/media/project2.png": "/portfolio/static/media/project2.66e8ce70.png",
     "static/media/project3.png": "/portfolio/static/media/project3.5c8fbd0b.png",
@@ -44,6 +44,6 @@
     "static/css/2.b183c589.chunk.css",
     "static/js/2.86ab07d1.chunk.js",
     "static/css/main.3a446704.chunk.css",
-    "static/js/main.005bc5c4.chunk.js"
+    "static/js/main.e4aa773d.chunk.js"
   ]
 }
