@@ -65,10 +65,10 @@ export const SidebarLink = styled(LinkS)`
    text-decoration: none;
    color: #fafafa;
    cursor: pointer;
-   transition: color ease-in-out;
+   transition: color 0.3s ease;
 
    &:hover {
-      color: #ccca;
+      color: #444bdc;
    }
 `;
 
