@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a446704.chunk.css",
-    "main.js": "/portfolio/static/js/main.24c1d3ac.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.24c1d3ac.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.005bc5c4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.005bc5c4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2a064e63.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2a064e63.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
-    "static/js/2.37ffef76.chunk.js": "/portfolio/static/js/2.37ffef76.chunk.js",
-    "static/js/2.37ffef76.chunk.js.map": "/portfolio/static/js/2.37ffef76.chunk.js.map",
+    "static/js/2.86ab07d1.chunk.js": "/portfolio/static/js/2.86ab07d1.chunk.js",
+    "static/js/2.86ab07d1.chunk.js.map": "/portfolio/static/js/2.86ab07d1.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.b183c589.chunk.css.map": "/portfolio/static/css/2.b183c589.chunk.css.map",
     "static/css/main.3a446704.chunk.css.map": "/portfolio/static/css/main.3a446704.chunk.css.map",
-    "static/js/2.37ffef76.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37ffef76.chunk.js.LICENSE.txt",
+    "static/js/2.86ab07d1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.86ab07d1.chunk.js.LICENSE.txt",
     "static/media/CV_Jeral_Pineda.pdf": "/portfolio/static/media/CV_Jeral_Pineda.ce27950b.pdf",
     "static/media/Photo.jpg": "/portfolio/static/media/Photo.10d0dcf3.jpg",
     "static/media/about.jpg": "/portfolio/static/media/about.8eaecac4.jpg",
@@ -23,6 +23,7 @@
     "static/media/github-.svg": "/portfolio/static/media/github-.b1997d6c.svg",
     "static/media/hero.jpg": "/portfolio/static/media/hero.cda94e0f.jpg",
     "static/media/hero2.jpg": "/portfolio/static/media/hero2.74049173.jpg",
+    "static/media/hero3.jpg": "/portfolio/static/media/hero3.c0740dbc.jpg",
     "static/media/html-.svg": "/portfolio/static/media/html-.11531028.svg",
     "static/media/javascript-.svg": "/portfolio/static/media/javascript-.43e744a2.svg",
     "static/media/jeral.jpg": "/portfolio/static/media/jeral.4f20594d.jpg",
@@ -41,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.2a064e63.js",
     "static/css/2.b183c589.chunk.css",
-    "static/js/2.37ffef76.chunk.js",
+    "static/js/2.86ab07d1.chunk.js",
     "static/css/main.3a446704.chunk.css",
-    "static/js/main.24c1d3ac.chunk.js"
+    "static/js/main.005bc5c4.chunk.js"
   ]
 }
