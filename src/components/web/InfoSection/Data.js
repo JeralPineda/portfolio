@@ -11,7 +11,7 @@ export const homeObjOne = {
    buttonLabel: 'Contácteme',
    imgStart: false,
    img: `${pageImages('./jeral.jpg').default}`,
-   wallpaper: `${pageImages('./hero.jpg').default}`,
+   wallpaper: `${pageImages('./hero3.jpg').default}`,
    alt: 'Computo',
    dark: true,
    primary: true,

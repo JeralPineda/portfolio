@@ -26,8 +26,9 @@ export const Button = styled(Link)`
 `;
 
 export const ButtonLink = styled(LinkR)`
+   background: ${({ primary }) => (primary ? `linear-gradient(#000, #000) padding-box, linear-gradient(to right, #111, #444bdc) border-box;` : '#000')};
+
    border-radius: 1.1rem;
-   background: ${({ primary }) => (primary ? '#590271' : '#010606')};
    white-space: nowrap;
    padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
    color: ${({ dark }) => (dark ? '#fafafa' : '#fafafa')};
@@ -37,14 +38,15 @@ export const ButtonLink = styled(LinkR)`
    display: flex;
    justify-content: center;
    align-items: center;
-   transition: all 0.2s ease-out ease-out;
    text-decoration: none;
+   position: relative;
+   transition: background 0.2s ease-out;
 
-   background: rgb(0, 0, 0);
-   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(16, 1, 23, 1) 0%, rgba(30, 2, 40, 1) 26%, rgba(89, 2, 113, 1) 100%);
-   border: ${({ primary }) => (primary ? '1px solid #ccc' : '1px solid #ccc')};
+   border: ${({ primary }) => (primary ? '2px solid transparent' : '1px solid #fafafa')};
 
    &:hover {
-      background: ${({ primary }) => (primary ? '#111' : '#111')};
+      background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #111, #191e7e) border-box;
+      border: 2px solid transparent;
+      color: #ccc;
    }
 `;

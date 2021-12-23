@@ -13,6 +13,24 @@ export const CardContainer = styled.div`
       display: block;
    }
 
+   .container-gradient {
+      background: linear-gradient(to right, #111a, #111a);
+      border-radius: 1.5rem;
+      margin: 0;
+      padding: 2px;
+      position: relative;
+
+      transition: border 0.1s ease-out;
+
+      &:hover {
+         background: linear-gradient(to right, #020323, #151a77) border-box;
+         transform: translatey(-4px);
+         -webkit-box-shadow: 0px 0px 16px 0px #222;
+         -moz-box-shadow: 0px 0px 16px 0px #222;
+         box-shadow: 0px 0px 16px 0px #222;
+      }
+   }
+
    .card {
       background-color: #000;
       color: #fafafa;
@@ -21,17 +39,6 @@ export const CardContainer = styled.div`
       padding: 1.25rem;
       position: relative;
       border: 1px solid transparent;
-      border: 1px solid #111;
-
-      transition: border 0.15s ease-in;
-
-      &:hover {
-         border: 1px solid #222;
-         transform: translatey(-4px);
-         -webkit-box-shadow: 0px 0px 16px 0px #222;
-         -moz-box-shadow: 0px 0px 16px 0px #222;
-         box-shadow: 0px 0px 16px 0px #222;
-      }
    }
 
    .card-image {
@@ -72,7 +79,6 @@ export const CardContainer = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-      /* cursor: pointer; */
       line-height: 1;
       transition: 0.15s ease;
    }
