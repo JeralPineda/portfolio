@@ -90,7 +90,8 @@ export const ImgWrap = styled.div`
    max-width: 40rem;
    height: 100%;
    position: relative;
-   background: linear-gradient(to right, #743ad5, #d53a9d);
+   background: linear-gradient(to right, #020323, #151a77);
+
    padding: 2px 2px 1px 2px;
    border-radius: 30px;
 `;
@@ -99,7 +100,7 @@ export const Img = styled.img`
    width: 100%;
    border-radius: 30px;
 
-   box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.5);
-   -webkit-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.5);
-   -moz-box-shadow: 2px -1px 209px 8px rgba(110, 14, 99, 0.5);
+   box-shadow: 2px -1px 209px 8px #262756;
+   -webkit-box-shadow: 2px -1px 209px 8px #262756;
+   -moz-box-shadow: 2px -1px 209px 8px #262756;
 `;
