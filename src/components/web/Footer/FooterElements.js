@@ -57,6 +57,7 @@ export const FooterLinkTitle = styled.h1`
 
 export const FooterLink = styled(LinkS)`
    color: #ccca;
+   cursor: pointer;
    text-decoration: none;
    margin-bottom: 0.5rem;
    font-size: 1.5rem;
@@ -86,6 +87,7 @@ export const SocialMediaWrap = styled.div`
 
 export const SocialLogo = styled(LinkS)`
    color: #fafafa;
+   cursor: pointer;
    justify-self: start;
    text-decoration: none;
    font-size: 1.5rem;
