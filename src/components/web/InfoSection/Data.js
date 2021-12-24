@@ -6,7 +6,7 @@ export const homeObjOne = {
    lightText: true,
    lightTextDesc: true,
    topLine: 'Hola, Soy',
-   headLine: 'Jeral Cristoher Pineda Mejia',
+   headLine: 'Jeral Pineda',
    description: 'Desarrollador web FullStack, enfocado en desarrollar aplicaciones funcionales, atractivas e intuitivas.',
    buttonLabel: 'Contácteme',
    imgStart: false,
