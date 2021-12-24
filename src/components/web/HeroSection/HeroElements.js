@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const HeroContainer = styled.div`
    color: #fafafa;
@@ -86,12 +86,33 @@ export const TopLine = styled.p`
    margin-bottom: 1.6rem;
 `;
 
+/* efecto maquina de escribir */
+const typing = keyframes`
+    from {
+         width: 0;
+      }
+`;
+
+const blink = keyframes`
+    50% {
+         border-color: transparent;
+      }
+`;
+
 export const Heading = styled.h1`
    margin-bottom: 2.4rem;
    font-size: 4.8rem;
    line-height: 1.1;
    font-weight: 600;
    color: #fafafa;
+
+   /* efecto maquina de escribir */
+   border-right: 4px solid;
+   display: block;
+   white-space: nowrap;
+   width: 8.5ch;
+   animation: ${typing} 2s steps(14), ${blink} 0.5s infinite step-end alternate;
+   overflow: hidden;
 
    @media screen and (max-width: 480px) {
       font-size: 3.2rem;
