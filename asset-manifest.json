@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a446704.chunk.css",
-    "main.js": "/portfolio/static/js/main.a8e51991.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a8e51991.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.99334b4c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.99334b4c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2a064e63.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2a064e63.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.b183c589.chunk.css.map": "/portfolio/static/css/2.b183c589.chunk.css.map",
     "static/css/main.3a446704.chunk.css.map": "/portfolio/static/css/main.3a446704.chunk.css.map",
     "static/js/2.40eed6a5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.40eed6a5.chunk.js.LICENSE.txt",
-    "static/media/CV_Jeral_Pineda.pdf": "/portfolio/static/media/CV_Jeral_Pineda.ce27950b.pdf",
+    "static/media/CV_Jeral_Pineda.pdf": "/portfolio/static/media/CV_Jeral_Pineda.9dab8e4b.pdf",
     "static/media/Photo.jpg": "/portfolio/static/media/Photo.10d0dcf3.jpg",
     "static/media/about.jpg": "/portfolio/static/media/about.8eaecac4.jpg",
     "static/media/about1.jpg": "/portfolio/static/media/about1.971a7841.jpg",
@@ -44,6 +44,6 @@
     "static/css/2.b183c589.chunk.css",
     "static/js/2.40eed6a5.chunk.js",
     "static/css/main.3a446704.chunk.css",
-    "static/js/main.a8e51991.chunk.js"
+    "static/js/main.99334b4c.chunk.js"
   ]
 }
