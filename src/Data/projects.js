@@ -26,4 +26,13 @@ export const projects = [
       descriptions: 'Modulo login, proyecto de la universidad',
       img: `${require('assets/images/projects/project3.png').default}`,
    },
+   {
+      id: '4',
+      linkGitHub: 'https://github.com/JeralPineda/react-MERN-Task-client',
+      linkDemo: 'https://affectionate-bartik-8a6bbf.netlify.app/',
+      title: 'App Tareas',
+      subtitle: 'Node.js, MongoDB, React y Express',
+      descriptions: 'App para crear tareas y proyectos',
+      img: `${require('assets/images/projects/project4_1.png').default}`,
+   },
 ];
