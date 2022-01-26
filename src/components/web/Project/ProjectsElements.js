@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-   height: 80rem;
+   height: auto;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -24,17 +24,6 @@ export const ProjectsContainer = styled.div`
       z-index: -1;
       transform: scale(1.15);
    }
-
-   @media screen and (max-width: 1000px) {
-      height: 1000px;
-   }
-   @media screen and (max-width: 768px) {
-      height: 1300px;
-   }
-
-   @media screen and (max-width: 480px) {
-      height: 1400px;
-   }
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -45,6 +34,7 @@ export const ProjectsWrapper = styled.div`
    align-items: center;
    grid-gap: 1.6rem;
    padding: 0 5rem;
+   margin-bottom: 30px;
 
    @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr;
@@ -60,6 +50,7 @@ export const ProjectsH1 = styled.h1`
    font-size: 2.5rem;
    color: #fafafa;
    margin-bottom: 6.4rem;
+   margin-top: 30px;
 
    @media screen and (max-width: 480px) {
       font-size: 2rem;
