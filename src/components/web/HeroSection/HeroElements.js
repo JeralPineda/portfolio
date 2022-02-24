@@ -110,7 +110,7 @@ export const Heading = styled.h1`
    border-right: 4px solid;
    display: block;
    white-space: nowrap;
-   width: 8.5ch;
+   width: 9ch;
    animation: ${typing} 2s steps(14), ${blink} 0.5s infinite step-end alternate;
    overflow: hidden;
 
